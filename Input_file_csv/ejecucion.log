@@ -1,0 +1,33 @@
+#######################################################################
+WARNING:  no libwebkitgtk-1.0 detected, some features will be unavailable
+    Consider installing the package with apt-get or yum.
+    e.g. 'sudo apt-get install libwebkitgtk-1.0-0'
+#######################################################################
+16:26:03,413 INFO  [KarafBoot] Checking to see if org.pentaho.clean.karaf.cache is enabled
+16:26:09,607 INFO  [KarafInstance] 
+*******************************************************************************
+*** Karaf Instance Number: 2 at /mnt/e/pentaho-server-ce-7.1.0.0-12/pdi-ce- ***
+***   9.0.0.0-423/data-integration/./system/karaf/caches/kitchen/data-1     ***
+*** Karaf Port:8803                                                         ***
+*** OSGI Service Port:9052                                                  ***
+*******************************************************************************
+2022/02/12 16:26:12 - Kitchen - Logging is at level : Basic
+2022/02/12 16:26:12 - Kitchen - Start of run.
+16:26:17,734 INFO  [DriverManager] Installing driver kars.
+16:26:17,737 INFO  [DriverManager] 0 drivers will be installed.
+16:26:17,738 INFO  [DriverManager] Finished installing drivers kars.
+2022/02/12 16:26:23 - job_principal - Start of job execution
+2022/02/12 16:26:23 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2022/02/12 16:26:23 - job_principal - Starting entry [Transformation]
+2022/02/12 16:26:23 - Transformation - Using run configuration [Pentaho local]
+2022/02/12 16:26:23 - Transformation - Running transformation using the Kettle execution engine
+2022/02/12 16:26:23 - trans1 - Dispatching started for transformation [trans1]
+2022/02/12 16:26:23 - Table output.0 - Connected to database [conexion_postgres] (commit=1000)
+2022/02/12 16:26:23 - CSV file input.0 - Header row skipped in file 'file:///mnt/d/AA-PROYECTOS-FLASK/ETLS/CURSO_PENTAHO/Input_file_csv/datos.csv'
+2022/02/12 16:26:23 - CSV file input.0 - Finished processing (I=1001, O=0, R=0, W=1000, U=0, E=0)
+2022/02/12 16:26:23 - Table output.0 - Finished processing (I=0, O=1000, R=1000, W=1000, U=0, E=0)
+2022/02/12 16:26:23 - job_principal - Finished job entry [Transformation] (result=[true])
+2022/02/12 16:26:23 - job_principal - Job execution finished
+2022/02/12 16:26:23 - Kitchen - Finished!
+2022/02/12 16:26:23 - Kitchen - Start=2022/02/12 16:26:12.381, Stop=2022/02/12 16:26:23.917
+2022/02/12 16:26:23 - Kitchen - Processing ended after 11 seconds.
